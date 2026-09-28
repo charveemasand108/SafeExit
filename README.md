@@ -1,131 +1,81 @@
 # 🛡️ SafeExit
 
-### A personal safety and emergency assistance iOS application built with SwiftUI.
+### Your safety toolkit, ready when you need it.
 
-SafeExit is an iOS safety application designed to help users handle uncomfortable or potentially unsafe situations quickly and discreetly.
+SafeExit is an iOS safety application designed to provide quick and discreet safety tools when users need them.
 
-The application brings multiple safety tools into one simple interface, allowing users to access features such as **Fake Call, Fake Chat, Travel Mode, Trusted Contacts, Location Support, and SOS assistance**.
-
----
-
-## 🚨 Why SafeExit?
-
-In an uncomfortable or unsafe situation, users may not have enough time to navigate through multiple applications or manually contact someone.
-
-SafeExit focuses on providing quick-access safety tools that can be triggered with minimal interaction.
-
-### The goal is simple:
-
-> **Give users a fast and discreet way to access safety features when they need them.**
+The app brings essential safety features such as **Fake Call, Fake Chat, Travel Mode, Live Location, SOS, and Trusted Contacts** into one simple interface.
 
 ---
 
 ## ✨ Features
 
-### 📞 Fake Call
-
-Simulates an incoming phone call to help users exit uncomfortable situations.
-
-- Custom caller name
-- Simulated incoming call interface
-- Call timer
-- Ringtone playback
-- Discreet activation
+- 📞 **Fake Call** — Schedule a realistic incoming call to help exit uncomfortable situations.
+- 💬 **Fake Chat** — Create a simulated conversation for a discreet exit.
+- 🚶 **Travel Mode** — Start a journey and keep important safety tools accessible.
+- 📍 **Live Location** — View and share your current location.
+- 🆘 **SOS** — Access emergency call, message, and location tools.
+- 👥 **Trusted Contacts** — Keep important contacts easily accessible.
+- 🛠️ **Safety Tools** — Access all major safety features from one place.
 
 ---
 
-### 💬 Fake Chat
+## 📱 App Screenshots
 
-Provides a simulated chat conversation that can appear like a real conversation.
+<p align="center">
+  <img src="home.png" width="220">
+  <img src="journey.png" width="220">
+  <img src="tools.png" width="220">
+</p>
 
-Users can use the feature as a discreet way to create an excuse to leave an uncomfortable situation.
+<p align="center">
+  <b>Home</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Journey</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Safety Tools</b>
+</p>
 
----
+<p align="center">
+  <img src="map.png" width="220">
+  <img src="sos.png" width="220">
+</p>
 
-### 🚗 Travel Mode
-
-Designed for situations where the user wants additional awareness while travelling.
-
-Travel Mode can be used to keep important safety information accessible during a journey.
-
----
-
-### 📍 Location Support
-
-SafeExit uses Apple's location services to support safety-related functionality.
-
-The application can work with:
-
-- Current location
-- Location-based safety features
-- Map-based assistance
-
-Location functionality is handled using Apple's **Core Location** framework.
-
----
-
-### 👥 Trusted Contacts
-
-Users can maintain a list of people they trust and may need to contact during an emergency.
-
-The application integrates with Apple's Contacts framework to make trusted contacts easier to access.
+<p align="center">
+  <b>Live Location</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>SOS</b>
+</p>
 
 ---
 
-### 🆘 SOS
+## 🔐 Privacy & Permissions
 
-Provides quick access to emergency assistance.
+SafeExit requests device permissions only when they are required by a specific safety feature.
 
-The SOS functionality is designed around reducing the number of steps required when the user needs help.
+### 📍 Location Permission
 
----
+Location access is used for features such as Live Location and location-based safety assistance.
 
-### 🕘 Safety History
+<p align="center">
+  <img src="location-permission.png" width="300">
+</p>
 
-Keeps track of relevant safety actions and activities within the application.
-
-This provides users with a simple way to review previous safety-related interactions.
-
----
-
-## 🧑‍💻 Technology Stack
-
-| Technology | Purpose |
-|------------|---------|
-| **Swift** | Core programming language |
-| **SwiftUI** | User interface |
-| **Core Location** | Location services |
-| **Contacts Framework** | Trusted contacts |
-| **MapKit** | Map and location visualization |
-| **AVFoundation** | Audio and ringtone playback |
-| **SwiftData** | Local data persistence |
-| **MVVM** | Application architecture |
-| **Xcode** | Development environment |
+The app requests location access through Apple's permission system, allowing users to control whether SafeExit can access their location.
 
 ---
 
-## 🏗️ Architecture
+## 🧩 How SafeExit Works
 
-SafeExit follows a modular SwiftUI architecture with separation between the user interface, application logic, and data.
+### 1. Home
+
+The Home screen provides quick access to the most important safety actions.
 
 ```text
-SafeExit
-│
-├── Home / Dashboard
-│
-├── Fake Call
-│   └── FakeCallViewModel
-│
-├── Fake Chat
-│
-├── Travel Mode
-│
-├── Trusted Contacts
-│
-├── SOS
-│
-├── Location Services
-│
-├── Safety History
-│
-└── Profile
+Home
+ │
+ ├── Fake Call
+ ├── Fake Chat
+ ├── Live Location
+ ├── SOS
+ └── Trusted Contacts
