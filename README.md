@@ -1,8 +1,38 @@
-# 📱 Screenshots
+# 🛡️ SafeExit
 
-## 🏠 Home
+> Your safety toolkit, ready when you need it.
 
-The Home screen provides quick access to SafeExit's main safety features, including Fake Call, Fake Chat, Live Location, SOS, and Trusted Contacts.
+SafeExit is an iOS safety application designed to provide users with quick, discreet, and accessible safety tools when they need them. The app brings multiple safety features together in one simple interface, including simulated calls and chats, live location sharing, SOS assistance, travel mode, and trusted contacts.
+
+---
+
+## ✨ Features
+
+- 📞 **Fake Call** – Schedule a simulated incoming call to create a discreet exit from an uncomfortable situation.
+- 💬 **Fake Chat** – Create a simulated conversation for a discreet way to exit a situation.
+- 📍 **Live Location** – View your current location on a map and share it when needed.
+- 🆘 **SOS** – Access emergency actions and prepare an emergency message with location information.
+- 🚶 **Travel Mode** – Start a journey with a destination and expected arrival time.
+- 👥 **Trusted Contacts** – Keep important contacts easily accessible during a journey or emergency.
+- 🛠️ **Safety Tools** – Access the main safety features from one centralized screen.
+
+---
+
+# 📱 App Flow & Screenshots
+
+## 1. 🏠 Home Screen
+
+The Home screen acts as the main dashboard of SafeExit.
+
+Users can quickly access:
+
+- Fake Call
+- Fake Chat
+- Live Location
+- SOS
+- Trusted Contacts
+
+The screen is designed to keep essential safety features easily accessible.
 
 <p align="center">
   <img src="home.png" width="280">
@@ -10,34 +40,47 @@ The Home screen provides quick access to SafeExit's main safety features, includ
 
 ---
 
-## 🚶 Journey / Travel Mode
+## 2. 📍 Live Location
 
-Users can enter a destination and expected arrival time before starting Travel Mode.
+The Live Location feature displays the user's current position on an interactive map.
+
+Users can view their location and share it when needed.
 
 <p align="center">
-  <img src="journey.png" width="280">
+  <img src="map.png" width="280">
 </p>
 
 ---
 
-## 🛠️ Safety Tools
+## 3. 📍 Location Permission
 
-The Tools screen provides centralized access to SafeExit's safety features.
+When a location-based feature is used, SafeExit requests the required location permission from the user.
 
-- 📞 Fake Call
-- 💬 Fake Chat
-- 🆘 SOS
-- 📍 Live Location
+The application explains why location access is needed before using the location functionality.
 
 <p align="center">
-  <img src="tool.png" width="280">
+  <img src="location-permission.png" width="280">
 </p>
 
 ---
 
-## 📞 Fake Call
+## 4. 💬 Fake Chat
 
-Users can configure a simulated incoming call by selecting the caller and the delay before the call.
+Fake Chat provides a simulated conversation that can be used as a discreet way to exit an uncomfortable situation.
+
+The conversation is simulated locally within the application.
+
+<p align="center">
+  <img src="fake%20chat.png" width="280">
+</p>
+
+---
+
+## 5. 📞 Fake Call
+
+Fake Call allows users to schedule a simulated incoming call.
+
+Users can select the caller and choose a delay before the simulated call appears.
 
 > **Note:** Fake Call is a local simulation and does not place a real phone call.
 
@@ -47,29 +90,15 @@ Users can configure a simulated incoming call by selecting the caller and the de
 
 ---
 
-## 💬 Fake Chat
+## 6. 🆘 SOS
 
-Fake Chat provides a simulated conversation designed to give users a discreet way to exit an uncomfortable situation.
+The SOS feature provides an emergency mode for situations where urgent assistance may be required.
 
-<p align="center">
-  <img src="fake%20chat.png" width="280">
-</p>
+It includes:
 
----
-
-## 📍 Live Location
-
-Live Location displays the user's current position on a map and provides an option to share the location.
-
-<p align="center">
-  <img src="map.png" width="280">
-</p>
-
----
-
-## 🆘 SOS
-
-The SOS screen provides an emergency mode with an emergency activation button and emergency message.
+- Emergency activation
+- Emergency message
+- Location information
 
 <p align="center">
   <img src="sos.png" width="280">
@@ -77,10 +106,76 @@ The SOS screen provides an emergency mode with an emergency activation button an
 
 ---
 
-## 📍 Location Permission
+## 7. 🛠️ Tools
 
-SafeExit requests location permission when a location-based safety feature requires it.
+The Tools screen brings SafeExit's major safety features together in one place.
+
+### Exit Tools
+
+- 📞 Fake Call
+- 💬 Fake Chat
+
+### Emergency
+
+- 🆘 SOS
+- 📍 Live Location
 
 <p align="center">
-  <img src="location-permission.png" width="280">
+  <img src="tool.png" width="280">
 </p>
+
+---
+
+# 🏗️ Technology Stack
+
+- **Swift**
+- **SwiftUI**
+- **Core Location**
+- **MapKit**
+- **Contacts Framework**
+- **AVFoundation**
+- **SwiftData**
+
+---
+
+# 🍎 Apple Frameworks Used
+
+| Framework | Purpose |
+|---|---|
+| **SwiftUI** | User interface and application screens |
+| **CoreLocation** | Accessing the user's location |
+| **MapKit** | Displaying the user's location on a map |
+| **Contacts** | Managing trusted contacts |
+| **AVFoundation** | Audio functionality for simulated call features |
+| **SwiftData** | Local data persistence |
+
+---
+
+# 🔒 Privacy
+
+SafeExit only requests location access when a location-based feature requires it.
+
+Location information is used to provide safety-related functionality such as displaying and sharing the user's current position.
+
+---
+
+# 📂 Project Structure
+
+```text
+SafeExit/
+│
+├── SafeExit/
+│   ├── Assets.xcassets
+│   ├── ContactsView.swift
+│   ├── FakeCallView.swift
+│   ├── FakeChatView.swift
+│   └── ...
+│
+├── README.md
+├── home.png
+├── map.png
+├── location-permission.png
+├── fake chat.png
+├── fake call.png
+├── sos.png
+└── tool.png
