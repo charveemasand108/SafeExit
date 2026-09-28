@@ -17,6 +17,7 @@ Fake Call allows users to schedule a realistic simulated incoming call.
 It can be used as a discreet way to exit an uncomfortable situation.
 
 **Features:**
+
 - Custom caller name
 - Adjustable call delay
 - Simulated incoming call
@@ -29,6 +30,7 @@ It can be used as a discreet way to exit an uncomfortable situation.
 Fake Chat provides a simulated conversation that can be used as a discreet exit tool.
 
 **Features:**
+
 - Simulated chat interface
 - Custom conversation
 - Realistic messaging experience
@@ -72,7 +74,7 @@ Trusted Contacts provides quick access to selected contacts during journeys or e
 
 ## 🏠 Home
 
-The Home screen provides quick access to the main SafeExit safety features.
+The Home screen provides quick access to SafeExit's main safety features.
 
 <p align="center">
   <img src="home.png" width="280">
@@ -96,10 +98,10 @@ The Tools screen provides centralized access to the application's safety tools.
 
 It includes:
 
-- Fake Call
-- Fake Chat
-- SOS
-- Live Location
+- 📞 Fake Call
+- 💬 Fake Chat
+- 🆘 SOS
+- 📍 Live Location
 
 <p align="center">
   <img src="tools.png" width="280">
@@ -116,6 +118,16 @@ Users can configure a simulated incoming call by selecting the caller and the de
 </p>
 
 > **Note:** Fake Call is a local simulation and does not place a real phone call.
+
+---
+
+## 💬 Fake Chat
+
+Fake Chat provides a simulated conversation designed to give users a discreet way to exit an uncomfortable situation.
+
+<p align="center">
+  <img src="fake-chat.png" width="280">
+</p>
 
 ---
 
