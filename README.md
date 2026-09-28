@@ -2,9 +2,9 @@
 
 ### Your safety toolkit, ready when you need it.
 
-SafeExit is an iOS safety application designed to provide quick and discreet safety tools when users need them.
+SafeExit is an iOS safety application designed to provide quick, discreet, and accessible safety tools when users need them.
 
-The application brings essential safety features such as **Fake Call, Fake Chat, Travel Mode, Live Location, SOS, and Trusted Contacts** into one simple interface.
+The app brings multiple safety features together in one simple interface, including **Fake Call, Fake Chat, Travel Mode, Live Location, SOS, and Trusted Contacts**.
 
 ---
 
@@ -12,26 +12,31 @@ The application brings essential safety features such as **Fake Call, Fake Chat,
 
 ### 📞 Fake Call
 
-Create a realistic simulated incoming call that can help users exit uncomfortable situations discreetly.
+Fake Call allows users to schedule a realistic simulated incoming call.
 
-- Schedule an incoming call
-- Custom caller information
-- Simulated call interface
-- Ringtone and call experience
-- Quick access from the Home and Tools screens
+It can be used as a discreet way to exit an uncomfortable situation.
+
+**Features:**
+- Custom caller name
+- Adjustable call delay
+- Simulated incoming call
+- Local simulation
+- Ringtone support
+- Quick access from Home and Tools
 
 ### 💬 Fake Chat
 
-Create a simulated conversation that can provide a discreet reason to leave an uncomfortable situation.
+Fake Chat provides a simulated conversation that can be used as a discreet exit tool.
 
-- Simulated conversation interface
-- Custom messages
-- Realistic chat experience
-- Quick access from the Home and Tools screens
+**Features:**
+- Simulated chat interface
+- Custom conversation
+- Realistic messaging experience
+- Quick access from the Home screen
 
 ### 🚶 Travel Mode
 
-Travel Mode allows users to start a journey by entering their destination and expected arrival time.
+Travel Mode allows users to enter their destination and expected arrival time before starting a journey.
 
 During a journey, users can access:
 
@@ -42,83 +47,75 @@ During a journey, users can access:
 
 ### 📍 Live Location
 
-View the user's current position on a map and share the location when needed.
+Live Location displays the user's current position on an interactive map.
+
+Users can also share their current location when needed.
 
 ### 🆘 SOS
 
-Provides a dedicated emergency interface for accessing emergency actions.
+SOS provides a dedicated emergency mode for urgent situations.
 
-The SOS screen includes:
+The SOS screen provides:
 
 - Emergency activation
 - Emergency message
-- Current location information
-- Emergency call/message functionality
+- Location information
+- Emergency actions
 
 ### 👥 Trusted Contacts
 
-Keep important contacts easily accessible during journeys or emergency situations.
-
-### 🛠️ Safety Tools
-
-A centralized section providing quick access to:
-
-- Fake Call
-- Fake Chat
-- SOS
-- Live Location
+Trusted Contacts provides quick access to selected contacts during journeys or emergency situations.
 
 ---
 
-# 📱 App Screenshots
+# 📱 Screenshots
 
 ## 🏠 Home
 
-The Home screen provides quick access to SafeExit's main safety features.
+The Home screen provides quick access to the main SafeExit safety features.
 
 <p align="center">
-  <img src="home.png" width="240">
-</p>
-
----
-
-## 📞 Fake Call
-
-Fake Call allows users to schedule a simulated incoming call.
-
-<p align="center">
-  <img src="fake-call.png" width="240">
-</p>
-
----
-
-## 💬 Fake Chat
-
-Fake Chat provides a simulated conversation that can be used as a discreet exit tool.
-
-<p align="center">
-  <img src="fake-chat.png" width="240">
+  <img src="home.png" width="280">
 </p>
 
 ---
 
 ## 🚶 Journey / Travel Mode
 
-Users can start a journey by entering their destination and expected arrival time.
+Users can enter a destination and expected arrival time before starting Travel Mode.
 
 <p align="center">
-  <img src="journey.png" width="240">
+  <img src="journey.png" width="280">
 </p>
 
 ---
 
 ## 🛠️ Safety Tools
 
-The Tools screen brings Fake Call, Fake Chat, SOS, and Live Location together.
+The Tools screen provides centralized access to the application's safety tools.
+
+It includes:
+
+- Fake Call
+- Fake Chat
+- SOS
+- Live Location
 
 <p align="center">
-  <img src="tools.png" width="240">
+  <img src="tools.png" width="280">
 </p>
+
+---
+
+## 📞 Fake Call
+
+Users can configure a simulated incoming call by selecting the caller and the delay before the call.
+
+<p align="center">
+  <img src="fake-call.png" width="280">
+</p>
+
+> **Note:** Fake Call is a local simulation and does not place a real phone call.
 
 ---
 
@@ -127,34 +124,28 @@ The Tools screen brings Fake Call, Fake Chat, SOS, and Live Location together.
 Live Location displays the user's current position on a map and provides an option to share the location.
 
 <p align="center">
-  <img src="map.png" width="240">
+  <img src="map.png" width="280">
 </p>
 
 ---
 
 ## 🆘 SOS
 
-SOS provides a dedicated emergency mode with an emergency message and location information.
+The SOS screen provides an emergency mode with an emergency activation button and emergency message.
 
 <p align="center">
-  <img src="sos.png" width="240">
+  <img src="sos.png" width="280">
 </p>
 
 ---
 
-# 🔐 Privacy & Permissions
+## 📍 Location Permission
 
-SafeExit requests device permissions only when required by a specific safety feature.
-
-### 📍 Location Permission
-
-Location access is used for features such as Live Location and location-based safety assistance.
+SafeExit requests location permission when a location-based safety feature requires it.
 
 <p align="center">
-  <img src="location-permission.png" width="300">
+  <img src="location-permission.png" width="280">
 </p>
-
-The application uses Apple's permission system so users can control location access.
 
 ---
 
@@ -167,9 +158,9 @@ The application uses Apple's permission system so users can control location acc
               │                           │
             Home                       Journey
               │                           │
-      ┌───────┼────────┐          ┌───────┼────────┐
-      │       │        │          │       │        │
-   Fake    Fake      SOS       Location Contacts Share
+      ┌───────┼────────┐          ┌───────┼─────────┐
+      │       │        │          │       │         │
+   Fake    Fake      SOS       Location Contacts  Share
    Call    Chat                 │
                                 │
                          Safety History
