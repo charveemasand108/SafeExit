@@ -1,80 +1,8 @@
-# 🛡️ SafeExit
-
-### Your safety toolkit, ready when you need it.
-
-SafeExit is an iOS safety application designed to provide quick, discreet, and accessible safety tools when users need them.
-
-The app brings multiple safety features together in one simple interface, including **Fake Call, Fake Chat, Travel Mode, Live Location, SOS, and Trusted Contacts**.
-
----
-
-## ✨ Features
-
-### 📞 Fake Call
-
-Fake Call allows users to schedule a realistic simulated incoming call.
-
-It can be used as a discreet way to exit an uncomfortable situation.
-
-**Features:**
-
-- Custom caller name
-- Adjustable call delay
-- Simulated incoming call
-- Local simulation
-- Ringtone support
-- Quick access from Home and Tools
-
-### 💬 Fake Chat
-
-Fake Chat provides a simulated conversation that can be used as a discreet exit tool.
-
-**Features:**
-
-- Simulated chat interface
-- Custom conversation
-- Realistic messaging experience
-- Quick access from the Home screen
-
-### 🚶 Travel Mode
-
-Travel Mode allows users to enter their destination and expected arrival time before starting a journey.
-
-During a journey, users can access:
-
-- 📍 Live Location
-- 👥 Trusted Contacts
-- 📤 Share Journey Details
-- 🕘 Safety History
-
-### 📍 Live Location
-
-Live Location displays the user's current position on an interactive map.
-
-Users can also share their current location when needed.
-
-### 🆘 SOS
-
-SOS provides a dedicated emergency mode for urgent situations.
-
-The SOS screen provides:
-
-- Emergency activation
-- Emergency message
-- Location information
-- Emergency actions
-
-### 👥 Trusted Contacts
-
-Trusted Contacts provides quick access to selected contacts during journeys or emergency situations.
-
----
-
 # 📱 Screenshots
 
 ## 🏠 Home
 
-The Home screen provides quick access to SafeExit's main safety features.
+The Home screen provides quick access to SafeExit's main safety features, including Fake Call, Fake Chat, Live Location, SOS, and Trusted Contacts.
 
 <p align="center">
   <img src="home.png" width="280">
@@ -94,9 +22,7 @@ Users can enter a destination and expected arrival time before starting Travel M
 
 ## 🛠️ Safety Tools
 
-The Tools screen provides centralized access to the application's safety tools.
-
-It includes:
+The Tools screen provides centralized access to SafeExit's safety features.
 
 - 📞 Fake Call
 - 💬 Fake Chat
@@ -104,7 +30,7 @@ It includes:
 - 📍 Live Location
 
 <p align="center">
-  <img src="tools.png" width="280">
+  <img src="tool.png" width="280">
 </p>
 
 ---
@@ -113,11 +39,11 @@ It includes:
 
 Users can configure a simulated incoming call by selecting the caller and the delay before the call.
 
-<p align="center">
-  <img src="fake-call.png" width="280">
-</p>
-
 > **Note:** Fake Call is a local simulation and does not place a real phone call.
+
+<p align="center">
+  <img src="fake%20call.png" width="280">
+</p>
 
 ---
 
@@ -126,7 +52,7 @@ Users can configure a simulated incoming call by selecting the caller and the de
 Fake Chat provides a simulated conversation designed to give users a discreet way to exit an uncomfortable situation.
 
 <p align="center">
-  <img src="fake-chat.png" width="280">
+  <img src="fake%20chat.png" width="280">
 </p>
 
 ---
@@ -158,21 +84,3 @@ SafeExit requests location permission when a location-based safety feature requi
 <p align="center">
   <img src="location-permission.png" width="280">
 </p>
-
----
-
-# 🔄 Application Workflow
-
-```text
-                         SafeExit
-                            │
-              ┌─────────────┴─────────────┐
-              │                           │
-            Home                       Journey
-              │                           │
-      ┌───────┼────────┐          ┌───────┼─────────┐
-      │       │        │          │       │         │
-   Fake    Fake      SOS       Location Contacts  Share
-   Call    Chat                 │
-                                │
-                         Safety History
